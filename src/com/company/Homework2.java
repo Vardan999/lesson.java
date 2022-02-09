@@ -27,9 +27,22 @@ public class Homework2 {
         }
 
         //havasarasrun erankyun
+
         if (a == b || b == c ){
             System.out.println(true);
         }else if (c == a){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
+
+        // 2 erankyunneri havasarutyan haytanish
+        //erankyun(2)
+        int d = 3;
+        int e = 4;
+        int f = 5;
+
+        if (a == d & b == e & c == f){
             System.out.println(true);
         }else {
             System.out.println(false);
