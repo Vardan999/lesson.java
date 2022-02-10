@@ -28,11 +28,11 @@ public class Homework2 {
 
         //havasarasrun erankyun
 
-        if (a == b || b == c ){
+        if (a == b || b == c) {
             System.out.println(true);
-        }else if (c == a){
+        } else if (c == a) {
             System.out.println(true);
-        }else {
+        } else {
             System.out.println(false);
         }
 
@@ -42,9 +42,9 @@ public class Homework2 {
         int e = 4;
         int f = 5;
 
-        if (a == d & b == e & c == f){
+        if (a == d & b == e & c == f) {
             System.out.println(true);
-        }else {
+        } else {
 
             System.out.println(false);
         }
@@ -54,23 +54,23 @@ public class Homework2 {
         int h = 20;
         int j = 20;
 
-        if((g & h) == j){
+        if ((g & h) == j) {
             System.out.println(true);
-        }else {
+        } else {
             System.out.println(false);
         }
 
-        if (g == h || h == j){
+        if (g == h || h == j) {
             System.out.println(true);
-        }else if(g == j){
+        } else if (g == j) {
             System.out.println(true);
-        }else{
+        } else {
             System.out.println(false);
         }
 
-        if((g*g)+(h*h) == (j*j)){
+        if ((g * g) + (h * h) == (j * j)) {
             System.out.println(true);
-        }else {
+        } else {
             System.out.println(false);
         }
 

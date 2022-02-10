@@ -20,7 +20,7 @@ public class homeWork {
         int s = (e * f) / 2;
 
         System.out.println(s);
-       //բարձրություն
+        //բարձրություն
         int h = (e * f) / d;
         System.out.println(h);
 
