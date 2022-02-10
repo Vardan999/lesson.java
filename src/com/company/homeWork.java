@@ -12,7 +12,7 @@ public class homeWork {
 
         System.out.println(p);
 
-        //  Ուզանկյուն եռանկյան Մակերես
+        //  Ուղանկյուն եռանկյան Մակերես
         int d = 5;
         int e = 4;
         int f = 3;
@@ -20,10 +20,9 @@ public class homeWork {
         int s = (e * f) / 2;
 
         System.out.println(s);
-//բարձրություն
+       //բարձրություն
         int h = (e * f) / d;
         System.out.println(h);
-
 
 
     }
