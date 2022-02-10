@@ -45,6 +45,32 @@ public class Homework2 {
         if (a == d & b == e & c == f){
             System.out.println(true);
         }else {
+
+            System.out.println(false);
+        }
+
+        //erankyun 3
+        int g = 20;
+        int h = 20;
+        int j = 20;
+
+        if((g & h) == j){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
+
+        if (g == h || h == j){
+            System.out.println(true);
+        }else if(g == j){
+            System.out.println(true);
+        }else{
+            System.out.println(false);
+        }
+
+        if((g*g)+(h*h) == (j*j)){
+            System.out.println(true);
+        }else {
             System.out.println(false);
         }
 
