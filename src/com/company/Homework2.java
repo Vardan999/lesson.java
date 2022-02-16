@@ -68,12 +68,12 @@ public class Homework2 {
         } else {
             System.out.println(false);
         }
-
-        if ((g * g) + (h * h) == (j * j)) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+//
+//        if ((g * g) + (h * h) == (j * j)) {
+//            System.out.println(true);
+//        } else {
+//            System.out.println(false);
+ //   }
 
 
 
