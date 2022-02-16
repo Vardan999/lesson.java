@@ -12,13 +12,14 @@ public class Homework2 {
         int b = 18;
         int c = 22;
 
-        if ((a & b) == c) {
+        if (a == b & b == c) {
             System.out.println(true);
         } else {
             System.out.println(false);
         }
 
         //uxankyun erankyun
+
 
         if ((a * a) + (b * b) == (c * c)) {
             System.out.println(true);
@@ -73,6 +74,8 @@ public class Homework2 {
         } else {
             System.out.println(false);
         }
+
+
 
 
     }
