@@ -23,27 +23,27 @@ public class app1 {
         int c = 57;
         int d = 35;
 
-        if((a+b) < (c+d)){
+        if ((a + b) < (c + d)) {
             System.out.println("it is a true");
-        }else if ((a+b) == (c+d)){
+        } else if ((a + b) == (c + d)) {
             System.out.println("its a false");
-        }else {
+        } else {
             System.out.println(false);
         }
 
         int h = 41;
 
-        switch (h){
-            case 1 :
+        switch (h) {
+            case 1:
                 System.out.println(false);
                 break;
-            case 2 :
+            case 2:
                 System.out.println(false);
                 break;
             case 3:
                 System.out.println(false);
                 break;
-            case 4 :
+            case 4:
                 System.out.println(false);
                 break;
             case 5:
@@ -59,10 +59,19 @@ public class app1 {
         arr.push(0);
         arr.push(1);
 
-        for (int i = 1; i <= 15; i++) {
+        for (int i = 1; i <= 10; i++) {
             arr.push((int) arr.get(i) + (int) arr.get(i - 1));
         }
         System.out.println(arr);
+
+
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+
+                System.out.println(i);
+            }
+        }
+
 
     }
 }
