@@ -1,6 +1,7 @@
 package com.company;
 import java.io.IOException;
 import java.io.IOException;
+import java.util.SortedMap;
 
 public class Homework4 {
     public static void main(String[] args) throws IOException {
@@ -13,15 +14,11 @@ public class Homework4 {
         System.out.println(w);
 
 
-
-
         int e = 0;
         for (int i = 1; i <= 40; i++) {
             e += i;
         }
         System.out.println(e);
-
-
 
 
         int[] mas = {45, 12, 8, 78, 6, 58};
@@ -35,15 +32,66 @@ public class Homework4 {
         System.out.println(x);
 
 
-
-
-        int[] arr = {45, 12, 8, 78, 6, 58};
+         int[] arr = {45, 12, 8, 78, 6, 58};
         int z = arr[0];
-        for (int i = 0; i<6; i++){
-            if (arr[i] > z){
+
+        for (int i = 1; i < 6; i++) {
+            if (arr[i] > z) {
                 z = arr[i];
             }
         }
         System.out.println(z);
+
+
+
+        for (int i = 1; i < 6; i++){
+            int j = i;
+            while (j != 0 &&  arr[j] < arr[j - 1] ){
+            int temp = arr[j];
+            arr[j] = arr[j-1];
+            arr[j-1] = temp;
+            j--;
+            }
+
+
+
+        }
+            for ( int i = 0; i<6; i++) {
+                System.out.println(arr[i]);
+            }
+
+
+
+
+        for (int i = 1; i < 6; i++){
+        int j = i;
+        while (j != 0 && arr[j] > arr[j - 1]){
+            arr[j] += arr[j - 1];
+            arr[j-1] = arr[j] - arr[j-1];
+            arr[j] = arr[j] - arr[j - 1];
+            j--;
+        }
+        }
+        for (int i = 0; i < 6; i++){
+            System.out.println(arr[i]);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
+
 }
