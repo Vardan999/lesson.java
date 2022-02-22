@@ -16,14 +16,14 @@ public class loops {
             }
         }
 
-        for (int k = 0; k <= 100; k++){
-            if (k % 2 == 0){
+        for (int k = 0; k <= 100; k++) {
+            if (k % 2 == 0) {
                 System.out.println(k);
             }
         }
 
-        for (int k = 0; k <=100; k++){
-            if (k % 2 == 1){
+        for (int k = 0; k <= 100; k++) {
+            if (k % 2 == 1) {
                 System.out.println(k);
             }
         }

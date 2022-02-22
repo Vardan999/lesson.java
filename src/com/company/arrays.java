@@ -70,20 +70,8 @@ public class arrays {
             System.out.println(arr[i]);
 
 
-
-
-
-
-
-
-
-
-
-
+        }
 
 
     }
-
-
-}
 }

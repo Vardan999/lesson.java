@@ -21,8 +21,6 @@ public class matrix {
         }
 
 
-
-
         int minValue = twoD[0][0];
         for (i = 1; i < 3; i++)
             for (j = 1; j < 4; j++) {
@@ -32,8 +30,6 @@ public class matrix {
                 }
             }
         System.out.println(minValue);
-
-
 
 
         int maxValue = twoD[0][0];
