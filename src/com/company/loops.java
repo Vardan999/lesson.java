@@ -1,6 +1,6 @@
 package com.company;
 import java.io.IOException;
-public class Homework3 {
+public class loops {
     public static void main(String[] args) throws IOException {
 
         for (int i = 5; i <= 100; i++) {

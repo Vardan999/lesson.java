@@ -2,7 +2,8 @@ package com.company;
 
 import java.io.IOException;
 
-public class Homework2 {
+public class triangle {
+
 
     public static void main(String[] args) throws IOException {
 
@@ -74,6 +75,27 @@ public class Homework2 {
         } else {
             System.out.println(false);
         }
+
+        // հավասարակողմ եռանկյան պարագիծ
+        int aa = 18;
+        int bb= 18;
+        int cc = 18;
+
+        int p = a + b + c;
+
+        System.out.println(p);
+
+        //  Ուղանկյուն եռանկյան Մակերես
+        int dd = 5;
+        int ee = 4;
+        int ff = 3;
+
+        int s = (e * f) / 2;
+
+        System.out.println(s);
+        //բարձրություն
+        int hh = (e * f) / d;
+        System.out.println(h);
 
 
     }
