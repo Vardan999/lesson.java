@@ -26,6 +26,7 @@ public class Homework3 {
             if (k % 2 == 1){
                 System.out.println(k);
             }
+
         }
     }
 }
