@@ -3,21 +3,37 @@ package com.company;
 import java.io.IOException;
 
 public class methods {
-    public static int value(int i) {
-        return i;
+    static int[] arr = {25, 4, 58, 12, 56, 5};
+
+    public static int find(int numb) {
+        for (int i = 0; i < 6; i++)
+            if (arr[i] == numb) {
+                numb = i;
+            }
+        return numb;
     }
+
+
+    public static int reType(int value) {
+        for (int i = 0; i < 6; i++) {
+            arr[5] = value;
+        }
+        return value;
+    }
+
 
     public static void main(String[] args) throws IOException {
-
-        int a = value(10);
-        int b = 0;
-        for (int i = 0; i <= a; i++) {
-            b += i;
-        }
-        System.out.println(b);
+        System.out.println(find(12));
+        System.out.println(reType(85));
 
 
     }
-
-
 }
+
+
+
+
+
+
+
+
