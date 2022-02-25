@@ -1,6 +1,6 @@
 package com.company;
 import java.io.IOException;
-public class loops {
+public class Loops {
     public static void main(String[] args) throws IOException {
 
         for (int i = 5; i <= 100; i++) {

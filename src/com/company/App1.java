@@ -3,7 +3,7 @@ package com.company;
 import java.util.Stack;
 import java.io.IOException;
 
-public class app1 {
+public class App1 {
     public static void main(String[] args) throws IOException {
 
 
