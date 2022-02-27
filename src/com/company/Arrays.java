@@ -22,7 +22,7 @@ public class Arrays {
         int[] mas = {45, 12, 8, 78, 6, 58};
         int x = mas[0];
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 1; i < 6; i++) {
             if (mas[i] < x) {
                 x = mas[i];
             }
