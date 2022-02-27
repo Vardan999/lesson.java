@@ -18,7 +18,7 @@ public class Methods {
     //find the index
 
     public static short find(short numb) {
-        for (short i = 5; i >= 0; i--)
+        for (short i = 6; i >= 0; i--)
             if (arr[i] == numb) {
                 numb = i;
             }
@@ -28,13 +28,13 @@ public class Methods {
     //insert element
 
     public static int insert(int numb, int index) {
-        for (short i = 5; i >= 0; i--)
-            if (arr[i] == numb) {
-                arr[i] = index;
-            }
+        for (int i = 5; i >= 0; i--){
+           arr[index] = numb;
+
+        }
+
         return numb;
     }
-
 
     //change 5 to 85
 
@@ -58,14 +58,15 @@ public class Methods {
         System.out.println(checkElement(88));
         System.out.println(find(56));
         System.out.println(checkElement(74));
-        System.out.println(insert(99, 0));
 
+        System.out.println(insert(5,0));
         for (int i = 0; i < 6; i++) {
+
             System.out.println(arr[i]);
+
         }
 
-
-    }
+}
 }
 
 
