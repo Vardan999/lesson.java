@@ -40,26 +40,26 @@ public class Methods {
 
     public static int checkElement(int value) {
         for (int i = 0; i < 6; i++) {
-            arr[5] = value;
+            arr[2] = value;
         }
         return value;
     }
 
-    public static short checkElement(short value) {
+    public static short checkElement(short value1) {
         for (short i = 0; i < 6; i++) {
-            arr[5] = value;
+            arr[3] = value1;
         }
-        return value;
+        return value1;
     }
 
 
     public static void main(String[] args) throws IOException {
         System.out.println(find(4));
-        System.out.println(checkElement(88));
+        System.out.println(checkElement(7));
         System.out.println(find(56));
-        System.out.println(checkElement(74));
+        System.out.println(checkElement((short) 1));
+        System.out.println(insert(13163,0));
 
-        System.out.println(insert(5,0));
         for (int i = 0; i < 6; i++) {
 
             System.out.println(arr[i]);
