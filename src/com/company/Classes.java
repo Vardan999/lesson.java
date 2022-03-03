@@ -151,10 +151,10 @@ public class Classes {
 
         WorkInfo workInfo1 = new WorkInfo();
         System.out.println("age: " + workInfo1.calculaterAge(1999));
-        System.out.println(workInfo1.names("Jone"));
-        System.out.println(workInfo1.lastNames("Stounse"));
-        System.out.println(workInfo1.profesions("footballer"));
-        System.out.println(workInfo1.salaryes(9000) + " $");
+        System.out.println("name: " + workInfo1.names("Jone"));
+        System.out.println("lastename: "+workInfo1.lastNames("Stounse"));
+        System.out.println("profesion: " + workInfo1.profesions("footballer"));
+        System.out.println("Salary: " + workInfo1.salaryes(9000) + " $");
 
 
     }
