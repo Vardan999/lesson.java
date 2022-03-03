@@ -53,6 +53,7 @@ public class Methods {
     }
 
 
+
     public static void main(String[] args) throws IOException {
         System.out.println(find(4, arr));
         System.out.println(replaceElement(7, arr));
@@ -64,9 +65,13 @@ public class Methods {
 
             System.out.println(arr[i]);
 
+
+
+
         }
 
     }
+
 }
 
 
