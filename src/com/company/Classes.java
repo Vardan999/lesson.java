@@ -13,10 +13,18 @@ public class Classes {
                 this.widht = 0;
             }
 
+            Quarter(int arg) {
+                this.widht = arg;
+            }
+            Quarter(int args,int args1) {
+
+                this.widht = args + args1;
+            }
+
             public int parr(int withd) {
                 this.widht = withd;
-                int par = withd;
-                return 4 * par;
+//                int par = withd;
+                return 4 * withd;
             }
 
 
@@ -24,7 +32,13 @@ public class Classes {
                 this.widht = widht;
 
             }
+
         }
+
+
+        Quarter quarter1 = new Quarter();
+        Quarter quarter2 = new Quarter(15,4);
+
 
 
         class Triangle {
@@ -66,10 +80,11 @@ public class Classes {
             WorkInfo() {
                 this.salary = 0;
                 this.birthYear = 0;
-                this.name = name;
-                this.lastName = lastName;
-                this.profesion = profesion;
+                this.name = "No name";
+                this.lastName = "No lastname";
+                this.profesion = "No profesion";
             }
+
 
             public int calculaterAge(int birthYear) {
                 this.birthYear = birthYear;
@@ -108,8 +123,8 @@ public class Classes {
 
             InfoAbout() {
                 this.birthNumber = 0;
-                this.name = name;
-                this.lastName = lastName;
+                this.name = "No name";
+                this.lastName ="No lastName";
 
             }
 
@@ -134,9 +149,6 @@ public class Classes {
         }
 
 
-
-        Quarter quarter1 = new Quarter();
-
         System.out.println(quarter1.parr(20));
         quarter1.setWidht(15);
 
@@ -152,7 +164,7 @@ public class Classes {
         WorkInfo workInfo1 = new WorkInfo();
         System.out.println("age: " + workInfo1.calculaterAge(1999));
         System.out.println("name: " + workInfo1.names("Jone"));
-        System.out.println("lastename: "+workInfo1.lastNames("Stounse"));
+        System.out.println("lastename: " + workInfo1.lastNames("Stounse"));
         System.out.println("profesion: " + workInfo1.profesions("footballer"));
         System.out.println("Salary: " + workInfo1.salaryes(9000) + " $");
 

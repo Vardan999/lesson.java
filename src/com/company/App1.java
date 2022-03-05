@@ -9,6 +9,7 @@ public class App1 {
     public static void main(String[] args) throws IOException {
 
 
+
         char ch, answer = 'c';
         System.out.println("What is number");
         System.out.print("Your answer:");

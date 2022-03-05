@@ -4,6 +4,9 @@ import java.io.IOException;
 
 public class Methods {
     static int[] arr = {25, 4, 58, 12, 56, 5};
+    Methods b = new Methods();
+
+
 
     //find the index
 
@@ -22,7 +25,7 @@ public class Methods {
             if (arr[i] == numb) {
                 return i;
             }
-        return numb;
+        return -1;
     }
 
     //insert element
