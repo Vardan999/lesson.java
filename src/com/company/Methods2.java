@@ -21,7 +21,7 @@ public class Methods2 {
 
 
     public static void main(String[] args) throws IOException {
-       // for (int i = 1; i <= 10; i++)
+       for (int i = 1; i <= 10; i++)
             System.out.println(fibonachi(5));
 
            }
