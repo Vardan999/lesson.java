@@ -159,18 +159,18 @@ public class Classes2 {
         String lastName;
 
 
-       public Author(String firstName, String lastName) {
+        public Author(String firstName, String lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
         }
 
-       public void setFirstname(String firstName) {
+        public void setFirstname(String firstName) {
             this.firstName = firstName;
 
         }
 
-        public void setLastname(String lasttName) {
-            this.lastName = lasttName;
+        public void setLastname(String lastName) {
+            this.lastName = lastName;
 
         }
 
@@ -182,13 +182,56 @@ public class Classes2 {
 
             return firstName;
         }
-        public String toString(){
-           return firstName;
 
-        }public String toString1(){
-           return lastName;
+        public String toString() {
+            return firstName;
+
         }
 
+        public String toString1() {
+            return lastName;
+        }
+
+    }
+
+    public static class Book{
+        public String title;
+        public String author;
+        public int price;
+
+
+        Book(String title,String author,int price){
+            this.title = title;
+            this.price = price;
+            this.author = author;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+        public void setPrice(int price){
+            this.price = price;
+        }
+
+        public void setAuthor(String author) {
+            this.author = author;
+        }
+
+        public String getAuthor() {
+            return author;
+        }
+
+        public String getTitle(){
+            return title;
+        }
+
+        public int getPrice(){
+            return price;
+        }
+        public String toString(){
+            return "This book was published in 1976 and is one of the best books in its genre";
+        }
     }
 
 
@@ -203,7 +246,7 @@ public class Classes2 {
         Clock clock2 = new Clock(50);
 
 
-        System.out.println(clock2.byString("12:", "24:", "55:"));
+        System.out.println(clock2.byString("12:", "24:", "55"));
         System.out.println(clock2.tickDown());
 
         ComplexNumber complexNumber = new ComplexNumber();
@@ -213,7 +256,7 @@ public class Classes2 {
         System.out.println(complexNumber1.complexSubtract(4, 0.7));
         System.out.println(complexNumber1.complexProdukt(2, 2.1));
 
-        Author author = new Author("Vardan","Khublaryan");
+        Author author = new Author("Vardan", "Khublaryan");
         author.setFirstname("Bob");
         author.setLastname("Marley");
         System.out.println(author.toString());
@@ -221,6 +264,12 @@ public class Classes2 {
         System.out.println(author.getFirstName());
         System.out.println(author.getLastName());
 
+
+        Book book = new Book("100 Years of Solitude","Garsia Markes",80 );
+        System.out.println(book.getTitle());
+        System.out.println(book.getAuthor());
+        System.out.println(book.getPrice() + "$");
+        System.out.println(book.toString());
     }
 
 }

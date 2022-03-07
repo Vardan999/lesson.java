@@ -16,7 +16,8 @@ public class Classes {
             Quarter(int arg) {
                 this.widht = arg;
             }
-            Quarter(int args,int args1) {
+
+            Quarter(int args, int args1) {
 
                 this.widht = args + args1;
             }
@@ -37,8 +38,7 @@ public class Classes {
 
 
         Quarter quarter1 = new Quarter();
-        Quarter quarter2 = new Quarter(15,4);
-
+        Quarter quarter2 = new Quarter(15, 4);
 
 
         class Triangle {
@@ -124,7 +124,7 @@ public class Classes {
             InfoAbout() {
                 this.birthNumber = 0;
                 this.name = "No name";
-                this.lastName ="No lastName";
+                this.lastName = "No lastName";
 
             }
 
