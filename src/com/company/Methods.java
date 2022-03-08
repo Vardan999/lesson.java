@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Methods {
     static int[] arr = {25, 4, 58, 12, 56, 5};
-    Methods b = new Methods();
+    //Methods b = new Methods();
 
 
 
