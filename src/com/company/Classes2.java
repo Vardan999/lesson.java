@@ -1,7 +1,6 @@
 package com.company;
 
 
-
 public class Classes2 {
     public static class Stack {
         int stck[] = new int[10];
@@ -194,13 +193,13 @@ public class Classes2 {
 
     }
 
-    public static class Book{
+    public static class Book {
         public String title;
         public String author;
         public int price;
 
 
-        Book(String title,String author,int price){
+        Book(String title, String author, int price) {
             this.title = title;
             this.price = price;
             this.author = author;
@@ -210,7 +209,7 @@ public class Classes2 {
             this.title = title;
         }
 
-        public void setPrice(int price){
+        public void setPrice(int price) {
             this.price = price;
         }
 
@@ -222,14 +221,15 @@ public class Classes2 {
             return author;
         }
 
-        public String getTitle(){
+        public String getTitle() {
             return title;
         }
 
-        public int getPrice(){
+        public int getPrice() {
             return price;
         }
-        public String toString(){
+
+        public String toString() {
             return "This book was published in 1976 and is one of the best books in its genre";
         }
     }
@@ -265,7 +265,7 @@ public class Classes2 {
         System.out.println(author.getLastName());
 
 
-        Book book = new Book("100 Years of Solitude","Garsia Markes",80 );
+        Book book = new Book("100 Years of Solitude", "Garsia Markes", 80);
         System.out.println(book.getTitle());
         System.out.println(book.getAuthor());
         System.out.println(book.getPrice() + "$");
