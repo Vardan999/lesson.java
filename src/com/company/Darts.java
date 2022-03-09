@@ -2,11 +2,11 @@ package com.company;
 
 import java.util.Random;
 
-public class ClassDarts {
+public class Darts {
     String participants;
 
 
-    ClassDarts() {
+    Darts() {
         this.participants = "No Team number";
 
     }
@@ -38,10 +38,10 @@ public class ClassDarts {
 
     public static void main(String[] args) {
 
-        ClassDarts teamOne = new ClassDarts();
-        ClassDarts teamSecond = new ClassDarts();
-        ClassDarts teamThird = new ClassDarts();
-        ClassDarts teamFouth = new ClassDarts();
+        Darts teamOne = new Darts();
+        Darts teamSecond = new Darts();
+        Darts teamThird = new Darts();
+        Darts teamFouth = new Darts();
         System.out.println("The winner of First team");
         System.out.println("first player");
         System.out.println(teamOne.firstPlayer());
@@ -62,6 +62,7 @@ public class ClassDarts {
         System.out.println("fourth  player");
         System.out.println(teamFouth.fourthPlayer());
         System.out.println("the champion is fourth player of fourth team");
+
 
     }
 }
