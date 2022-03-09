@@ -4,7 +4,10 @@ import java.util.Stack;
 import java.io.IOException;
 
 public class App1 {
+
+
     public static void main(String[] args) throws IOException {
+
 
 
         char ch, answer = 'c';
@@ -74,8 +77,8 @@ public class App1 {
             if (count < 1) {
                 System.out.println(i);
 
+            }
         }
-         }
         int w = 0;
         for (int i = 1; i <= 100; i++) {
             w += i;
@@ -104,7 +107,6 @@ public class App1 {
 
         }
         System.out.println(x);
+
     }
-
 }
-
