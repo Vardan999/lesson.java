@@ -13,29 +13,27 @@ public class ClassDarts {
 
     public int firstPlayer() {
         Random points = new Random();
-        return points.nextInt(60);
-
+        int pooint =  points.nextInt(20,30);
+        return pooint;
     }
 
     public int secondPlayer() {
         Random points = new Random();
-        return points.nextInt(60);
-
+        int pooint =  points.nextInt(30,40);
+        return pooint;
     }
 
     public int thirdPlayer() {
         Random points = new Random();
-        return points.nextInt(60);
-
+        int pooint =  points.nextInt(40,50);
+        return pooint;
     }
 
     public int fourthPlayer() {
         Random points = new Random();
-        return points.nextInt(60);
-
+        int pooint =  points.nextInt(50,60);
+        return pooint;
     }
-
-
 
 
     public static void main(String[] args) {
@@ -43,9 +41,11 @@ public class ClassDarts {
         ClassDarts teamOne = new ClassDarts();
         ClassDarts teamSecond = new ClassDarts();
         ClassDarts teamThird = new ClassDarts();
+        ClassDarts teamFouth = new ClassDarts();
         System.out.println("The winner of First team");
         System.out.println("first player");
         System.out.println(teamOne.firstPlayer());
+
 //        System.out.println(teamOne.firstPlayer());
 //        System.out.println(teamOne.firstPlayer());
         System.out.println("The winner of second team");
@@ -58,9 +58,10 @@ public class ClassDarts {
         System.out.println(teamThird.secondPlayer());
 //        System.out.println(teamThird.secondPlayer());
 //        System.out.println(teamThird.secondPlayer());
-        System.out.println();
-
-
+        System.out.println("The winner of fourth team");
+        System.out.println("fourth  player");
+        System.out.println(teamFouth.fourthPlayer());
+        System.out.println("the champion is fourth player of fourth team");
 
     }
 }
